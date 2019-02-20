@@ -17,6 +17,8 @@ require 'book'
 describe Book do
 
   before do
+    def title
+    end
     @book = Book.new
   end
 
